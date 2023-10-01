@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minggu 1</title>
+</head>
+<body>
+    <!-- macam macam jenis heading (ctrl+/) -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6><br>
+
+    <!-- Cara menulis paragraf -->
+    <p>membuat teks paragraf</p>
+    <b>ini teks tebal</b><br>
+    <i>ini teks miring</i><br>
+    <u>ini teks underline</u><br>
+    <hr>
+
+    <!--macam macam list -->
+    <!-- ordered list -->
+    <ol type="1">
+        <li>ini list nomor</li>
+        <li>ini list nomor</li>
+        <li>ini list nomor</li>
+    </ol>
+    <ol type="a">
+        <li>ini list angka kecil</li>
+        <li>ini list angka kecil</li>
+        <li>ini list angka kecil</li>
+    </ol>
+    <ol type="A">
+        <li>ini list angka besar</li>
+        <li>ini list angka besar</li>
+        <li>ini list angka besar</li>
+    </ol>
+    <ol type="I">
+        <li>ini list romawi</li>
+        <li>ini list romawi</li>
+        <li>ini list romawi</li>
+    </ol>
+    <!-- Unordered list -->
+    <ul type="square">
+        <li>ini teks simbol kotak</li>
+        <li>ini teks simbol kotak</li>
+        <li>ini teks simbol kotak</li>
+    </ul>
+    <ul type="disc">
+        <li>ini teks simbol titik</li>
+        <li>ini teks simbol titik</li>
+        <li>ini teks simbol titik</li>
+    </ul>
+    <ul type="circle">
+        <li>ini simbol bunder</li>
+        <li>ini simbol bunder</li>
+        <li>ini simbol bunder</li>
+    </ul>
+    <!-- Description list -->
+    <dl>
+        <dt>content 1</dt>
+        <dd>isi content 1</dd>
+        <dt>content 2</dt>
+        <dd>isi content 2</dd>
+        <dt>content 3</dt>
+        <dd>isi content 3</dd>
+    </dl>
+
+    <!-- Hyperlink -->
+    <!-- link eksternal -->
+    <a href="https://github.com/RizalAhmadMaulana?tab=repositories" target="_blank">Ini github saya</a><br>
+    <!-- link internal -->
+    <a href="page_1.html">Ini internal link</a><br>
+    <!-- relative url -->
+    <a href="apa_aja/page_2.html">ini relative link</a><br>
+
+    <!-- Page Anchor -->
+    <ul>
+        <li><a href="#bagian1">Bagian 1</a></li>
+        <li><a href="#bagian2">Bagian 2</a></li>
+        <li><a href="#bagian3">Bagian 3</a></li>
+    </ul><br><br><br>
+    <h1 id="bagian1">Bagian 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus, architecto libero odio molestias quod quasi quam earum quas eligendi, consequuntur accusantium autem animi eaque, quia quae et provident eum nobis nulla. Dolorem temporibus, corporis atque id ipsa ratione aspernatur? Hic officiis culpa esse laborum incidunt ipsum, similique fuga quae!</p><br><br><br>
+    <h1 id="bagian2">Bagian 2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sapiente asperiores incidunt possimus dicta inventore soluta maxime consequatur. Id amet, aliquid dolores nesciunt magni error iusto sequi, distinctio ducimus explicabo enim, accusamus ratione voluptatibus. Ea doloremque minus vitae architecto qui rem fugiat iste, ullam sit, quasi optio voluptatibus, error praesentium.</p><br><br><br>
+    <h1 id="bagian3">Bagian 3</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et vel quas eos harum. Deserunt ex laborum quae praesentium consequatur asperiores dicta dolore suscipit, ipsam sapiente, accusamus necessitatibus officia corrupti quia.</p><br>
+
+    <!-- cara menambahkan gambar -->
+    <img src="../image/megachan.jpg" alt="foto ayng" width="200px" height="200px"><br><br>
+    
+    <!-- Membuat tabel -->
+    <table border="1"  cellspacing="0" cellpadding="3px" width="100">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rizal</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Igdo</td>
+        </tr>
+    </table><br><br>
+
+    <!-- FORM -->
+    <form action="#">
+        <label for="username">Username :</label>
+        <input type="text" id="username">
+    </form><br>
+    <form action="#">
+        <label for="pass">Password :</label>
+        <input type="password" id="pass">
+    </form><br>
+    <form action="#">
+        <label for="gender"> Pilih jenis kelamin :</label>
+        <input type="radio" id="gende">
+        <label for="gender">Laki laki</label>
+        <input type="radio" id="gender">
+        <label for="gender">Perempuan</label>
+    </form><br>
+    <form action="#">
+        <label>Pilih sikon anda :</label>
+        <input type="checkbox" id="ngantuk">
+        <label for="ngantuk">Ngantuk</label>
+        <input type="checkbox" id="semangat">
+        <label for="semangat">Semangat</label>
+    </form><br>
+    <form action="#">
+        <label for="kesan">Kesan & Pesan :</label>
+        <textarea name="kesan" id="" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
