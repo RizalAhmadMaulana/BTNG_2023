@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+/* id selector */
+#judul {
+    font-weight: 800;
+}
+
+.sub-judul {
+    color: blue;
+}
+
+.content {
+    font-style: italic;
+    color: green;
+}
+
+/* multiple selector */
+.p1, .p3 {
+    color: blue;
+}
+
+.link:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
